@@ -1,4 +1,4 @@
-#Write a program for the given star.
+# Write a program for the given star.
 def upper_tri_py(rows:int):
     for i in range(0,rows):
         print('*'*(i+1))
@@ -13,7 +13,7 @@ upper_tri_py(4)
 
 
 
-#Using for loop write a program to display a sum of 1 to 8 numbers.
+# Using for loop write a program to display a sum of 1 to 8 numbers.
 def sum_1_to_8() -> int:
     sum = 0
     for i in range(1,9):
@@ -75,7 +75,7 @@ Enter the num to reverse: The reversed number is:  1234321
 
 
 
-#Write a star program to print letter Si
+# Write a star program to print letter S.
 def print_S(rows:int):
     first = 0
     half = int(rows/2)
@@ -107,7 +107,7 @@ print_S(10)
 
 
 
-#Write a star program to print letter F.
+# Write a star program to print letter F.
 def print_F(rows:int):
     first = 0
     three_fourth = int((rows*2)/5)
@@ -134,7 +134,7 @@ print_F(10)
 
 
 
-#Write a program to find if the given number is palindrome or not.
+# Write a program to find if the given number is palindrome or not.
 def is_palindrome(num:int):
     temp = str(num)
     length = len(temp)
